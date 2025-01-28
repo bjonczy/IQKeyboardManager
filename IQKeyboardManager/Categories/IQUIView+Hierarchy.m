@@ -213,7 +213,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
     
     if (_IQCanBecomeFirstResponder == YES)
     {
-        _IQCanBecomeFirstResponder = ([self isUserInteractionEnabled] && ![self isHidden] && [self alpha]!=0.0 && ![self isAlertViewTextField]  && !self.textFieldSearchBar);
+        _IQCanBecomeFirstResponder = ([self isUserInteractionEnabled] && ![self isHidden] && [self alpha]!=0.0 && ![self isAlertViewTextField]);
     }
     
     return _IQCanBecomeFirstResponder;
